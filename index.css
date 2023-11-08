@@ -1,0 +1,403 @@
+*{
+    margin:0;
+    padding:0;
+    width:100;
+    height:100;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+#top{
+    width:100%;
+    height:100%;
+}
+#firstpage{
+    width:100%;
+    height:100%;
+    background-color: rgb(183, 178, 178);
+}
+#firstpage #nav:hover{
+    background-color: rgba(125, 104, 77, 0.236);
+    color:white;
+}
+#firstpage #nav ul{
+    height:30px;
+    display:flex;
+    justify-content: space-around;
+}
+#firstpage #nav ul li{
+    list-style: none;
+    font-size: 15px;
+ padding: 5px;
+
+}
+#firstpage #nav ul li:hover{
+    background-color: rgba(40, 73, 62, 0.225);
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.img2{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius: 60px;
+}
+
+#firsttop{
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+#firsttop h1{
+    color:rgba(9, 106, 95, 0.951);
+}
+#firsttop h1{
+    
+    color:rgb(243, 250, 251);
+    margin-top: 20px;
+}
+#firsttop h2{
+    margin-top: 30px;
+    color:rgba(77, 1, 31, 0.693);
+}
+
+
+#bottom h1{
+    margin:10px;
+}
+#bottom .roman{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgba(143, 73, 73, 0.434);
+
+}
+#bottom p{
+    margin-left:40px;
+    margin-right: 30px;
+}
+
+
+.img1{
+    width:300px;
+    height:250px;
+    border:4px solid black;
+  border-radius: 40px;
+}
+.op1 ul h3{
+    margin-top: 50px;
+    height:30px;
+    font-size:15px;
+    border:2px solid green;
+    border-radius: 31px;
+    background-color:rgba(255, 255, 0, 0.447);
+    padding: 4px;
+}
+.op2 ul h2{
+    margin-top: 50px;
+    height:30px;
+    font-size:15px;
+    border:2px solid green;
+    border-radius: 31px;
+    background-color:rgba(255, 255, 0, 0.447);
+    padding: 4px;
+    text-align: center;
+}
+
+
+
+.gr1 .toper{
+    margin-top: 16px;
+    padding: 4px;
+    border:2px solid yellowgreen;
+    background-color: beige;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.gr1:hover{
+    box-shadow: 3px 5px 12px rgba(79, 56, 25, 0.236);
+}
+
+.gr2:hover{
+    box-shadow: 3px 5px 12px rgba(79, 104, 77, 0.236);
+}
+
+
+.gr3:hover{
+    box-shadow: 3px 5px 12px rgba(79, 104, 77, 0.236);
+}
+
+
+.gr1 .toper:hover{
+    background-color:rgba(255, 255, 0, 0.447);
+    color:rgb(243, 238, 248);
+
+}
+.gr1 .toper a{
+    color: rgba(13, 13, 11, 0.563);
+}
+.gr1 .toper a:hover{
+    color:white;
+    font-size: 20px;
+}
+
+
+
+.gr2 .toper2{
+    margin-top: 16px;
+    padding: 4px;
+    border:2px solid rgba(91, 43, 3, 0.481);
+    background-color: rgba(202, 79, 18, 0.428);
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.gr2 .toper2:hover{
+    background-color:rgba(255, 255, 0, 0.335);
+    color:rgb(243, 238, 248);
+
+}
+.gr2 .toper2 a{
+    color: rgba(245, 237, 12, 0.58);
+}
+.gr2 .toper2 a:hover{
+    color:white;
+    font-size: 20px;
+}
+
+.gr3 .toper3{
+    margin-top: 16px;
+    padding: 4px;
+    border:2px solid rgba(134, 156, 37, 0.481);
+    background-color: rgba(10, 117, 167, 0.571);
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.gr3 .toper3:hover{
+    background-color:rgba(255, 255, 0, 0.335);
+    color:rgb(243, 238, 248);
+
+}
+.gr3 .toper3 a{
+    color: rgba(245, 237, 12, 0.58);
+}
+.gr3 .toper3 a:hover{
+    color:white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+#secondpage{
+    width:100%;
+    height:100%;
+    margin-top: 20px;
+    
+}
+.firstyear{
+    text-align: center;
+    color: rgba(20, 16, 16, 0.435);
+}
+.one{
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    width:90%;
+    height: 90%;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap:20px;
+    grid-row-gap:10px;
+    
+}
+
+
+
+@media (max-width: 768px) {
+    .one {
+        grid-template-columns: 1fr 1fr;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .one {
+        grid-template-columns: 1fr 1fr; 
+        
+    }
+}
+
+
+
+.gr1{
+    text-align: center;
+    background-color:rgba(95, 158, 160, 0.350);
+    border-radius: 20px;
+}
+
+.gr2{
+    text-align: center;
+    background-color:rgba(214, 96, 22, 0.778);
+    border-radius: 20px;
+}
+.gr3{
+    text-align: center;
+    background-color:rgba(22, 115, 214, 0.481);
+    border-radius: 20px;
+}
+
+
+
+
+
+.two{
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    width:90%;
+    height: 90%;
+    grid-template-columns:auto auto ;
+    grid-template-rows: auto auto ;
+    grid-column-gap:20px;
+    grid-row-gap:10px;
+    
+}
+@media (max-width: 768px) {
+    .two {
+        grid-template-columns: 1fr 1fr;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .two {
+        grid-template-columns: 1fr 1fr; 
+        
+    }
+}
+
+.two .gr1 h1 a{
+    margin-top: 100px;
+    padding: 15px;
+    color: rgb(107, 109, 40, 0.546);
+    
+}
+.two .gr1 h1{
+    margin-top: 40px;
+    border:2px solid yellowgreen;
+    background-color: beige;
+    
+    border-radius: 30px;
+}
+.two .gr1 h1:hover{
+    background-color: rgba(108, 57, 57, 0.572);
+}
+.two .gr1 h1 a:hover{
+    color: #fff;
+    font-size: 26px;
+
+}
+
+
+
+
+#thirdpage{
+    width:100%;
+    height:100%;
+    margin-top: 20px;
+    
+}
+#forthpage{
+    width:100%;
+    height:100%;
+    margin-top: 20px;
+    
+}
+#fifthpage{
+    width:100%;
+    height:100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Add your custom styles here */
+footer {
+    background-color: #3333337e;
+    color: #173563;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-icons {
+
+    height:50px;
+    font-size: 30px;
+    margin:20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icons a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+/* Style the links on hover */
+.footer-icons a:hover {
+    color: #00f;
+}
+
+
+.poster{
+    background-image: url(https://images.unsplash.com/photo-1511367461989-f85a21fda167?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvdmVyfGVufDB8fDB8fHww);
+    background-size: cover;
+    height:150px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#secondpage{
+    background-color:rgba(128, 128, 128, 0.343); 
+    
+}
+#thirdpage{
+    background-color:rgba(128, 128, 128, 0.343); 
+    
+}
+#forthpage{
+    background-color:rgba(128, 128, 128, 0.343); 
+    
+}
+#fifthpage{
+    background-color:rgba(128, 128, 128, 0.343); 
+    margin-top: 20px;
+    
+}
+
+
